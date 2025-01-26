@@ -1,5 +1,6 @@
 local UI = require('opus.ui')
 local Event = require('opus.event')
+local Process = require('opus.process')
 
 local colors = _G.colors
 
@@ -8,16 +9,14 @@ local page = UI.Page {
     x = 1, y = 1,
     ex = -1, ey = -1,
     backgroundColor = colors.black,
-    UI.Terminal {
-      x = 1, y = 1,
-      ex = -1, ey = -1
-    }
   }
 }
 
--- Lance le shell advShell dans le terminal
+-- Fonction pour lancer le shell de musique
 function page:shell()
-  self.terminal.terminal:execute('/packages/Advenced-music/music.lua')
+  Process.spawn(function()
+    shell.run('/packages/Advenced-music/music.lua')
+  end)
 end
 
 UI:setPage(page)
