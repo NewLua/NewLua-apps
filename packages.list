@@ -12,6 +12,8 @@
 	[ 'lfs'        ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/lfs/.package',
 	[ 'lpeg'       ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/lpeg/.package',
 	[ 'lzwfs'      ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/lzwfs/.package',
+	[ 'AdvShell'   ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/AdvShell/.package',
+
 	[ 'milo'       ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/milo/.package',
 	[ 'miloApps'   ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/miloApps/.package',
 	[ 'miners'     ] = 'https://raw.githubusercontent.com/NewLua/NewLua-apps/develop-1.8/miners/.package',
