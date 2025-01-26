@@ -3,6 +3,7 @@
 		title = "AdvShell",
 		category = "Apps",
 		run = "AdvShell",
+        icon = "\00400\04040\04440\04040",
 		iconExt = "\00400\04040\04440\04040",
 	},
 }
