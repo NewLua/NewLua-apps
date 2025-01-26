@@ -17,7 +17,7 @@ local page = UI.Page {
 
 -- Lance le shell advShell dans le terminal
 function page:shell()
-  self.terminal.terminal:execute('/packages/advshell/advshell.lua')
+  self.terminal.terminal:execute('/packages/Advenced-music/music.lua')
 end
 
 UI:setPage(page)
