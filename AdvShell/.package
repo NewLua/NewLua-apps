@@ -1,6 +1,6 @@
 {
 	title = 'AdvShell',
-	repository = 'NewLua/NewLua-apps/{{OPUS_BRANCH}}/moonscript',
+	repository = 'NewLua/NewLua-apps/{{OPUS_BRANCH}}/AdvShell',
 	description = [[Shell from AdvOS,
      a OS for CC Tweaked.]],
 	license = 'None',
