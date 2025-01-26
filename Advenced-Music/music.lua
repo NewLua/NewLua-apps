@@ -2,7 +2,7 @@
 local speakerSide = "right"  -- Changez cela si votre haut-parleur est sur un autre côté.
 
 -- Charger la configuration
-local configPath = "/package/Advenced-Music/config.lua"  -- Chemin vers le fichier de configuration
+local configPath = "/packages/Advenced-music/config.lua"  -- Chemin vers le fichier de configuration
 local config
 local success, err = pcall(function()
     config = dofile(configPath)  -- Charger la configuration
