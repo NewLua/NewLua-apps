@@ -1,6 +1,5 @@
 local UI = require('opus.ui')
 local Event = require('opus.event')
-local Process = require('opus.process')
 
 local colors = _G.colors
 
@@ -12,11 +11,9 @@ local page = UI.Page {
   }
 }
 
--- Fonction pour lancer le shell de musique
+-- Fonction pour lancer le programme musical
 function page:shell()
-  Process.spawn(function()
-    shell.run('/packages/Advenced-music/music.lua')
-  end)
+  shell.run('/packages/Advenced-music/music.lua')
 end
 
 UI:setPage(page)
