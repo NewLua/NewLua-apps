@@ -1,7 +1,7 @@
 {
 	[ "greggg15g1615sr1g65s1dg65ge1s1ge152g1e516g56sdg156e1g6esge61g6sdg16e1" ] = {
 		title = "Advenced-music",
-		category = "Music",
+		category = "Apps",
 		run = "main",
         icon = "\030 \0310Adv \010\030 \0310\009 Music",
 		iconExt = "\030 \0310Adv \010\030 \0310\009 Music",

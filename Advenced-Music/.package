@@ -3,7 +3,6 @@
 	repository = 'NewLua/NewLua-apps/{{OPUS_BRANCH}}/Advenced-music',
 	description = [[Advenced music system because the music can connect to js server
 	
-    By Kiz___
-	  https://github.com/kizYTB/Music-program-with-server-for-cc-tweaked]],
+    By Kiz___ , https://github.com/kizYTB/Music-program-with-server-for-cc-tweaked]],
 	license = 'None',
 }
